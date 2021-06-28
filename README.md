@@ -24,4 +24,4 @@ System wide:&#160;&#160; /usr/lib/vlc/lua/sd/<br>
 Current user:&#160;&#160; ~/.local/share/vlc/lua/sd/
 </p>
 
-*Note*: If path does not exists - create it and place your file
+*Note*: If path does not exists - create it and place your file there
