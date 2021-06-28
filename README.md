@@ -4,14 +4,24 @@ Original post: https://www.vlchelp.com/install-vlc-media-player-addon/
 
 Place desired .lua file in apropriate folder
 
-**For All Users**
+**Windows**
+<p>
+System wide:&#160;&#160; C:\\Program Files\\VideoLAN\\VLC\\lua\\sd\\<br>
+Current User:&#160;&#160; %APPDATA%\\vlc\\lua\\sd\\
+</p>
 
-In Windows: C:\\Program Files\\VideoLAN\\VLC\\lua\\sd\\<br>
-In Mac OS X: /Applications/VLC.app/Contents/MacOS/share/lua/sd/<br>
-In Linux: /usr/lib/vlc/lua/playlist/ or /usr/share/vlc/lua/sd/<br>
-<br>
-**For Current User**
+**MacOS**
+<p>
+System wide:&#160;&#160; /Applications/VLC.app/Contents/MacOS/share/lua/sd/<br>
+Current user:&#160;&#160; /Users/$USER/Library/Application Support/org.videolan.vlc/lua/sd/<br>
+</p>
 
-In Windows: %APPDATA%\\vlc\\lua\\sd\\<br>
-In Mac OS X: /Users/$USER/Library/Application Support/org.videolan.vlc/lua/sd/<br>
-In Linux: ~/.local/share/vlc/lua/sd/<br>
+**Linux**
+<p>
+System wide:&#160;&#160; /usr/lib/vlc/lua/sd/<br> 
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+**or**&#160;&#160; /usr/share/vlc/lua/sd/<br>
+Current user:&#160;&#160; ~/.local/share/vlc/lua/sd/
+</p>
+
+*Note*: If path does not exists - create it and place your file
