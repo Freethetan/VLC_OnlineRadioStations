@@ -1,3 +1,10 @@
+## Info
+VLC media palyer plugin that adds SomaFM and/or SovietWave stations 
+to the Internet section
+
+![Example screenshot](https://github.com/Freethetan/VLC_OnlineRadioStations/raw/master/Screenshot_.png "SomaFM and SovietWave items in Internet section")
+
+
 ## Install instructions:
 
 Original post: https://www.vlchelp.com/install-vlc-media-player-addon/
